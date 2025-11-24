@@ -34,6 +34,38 @@ code {
 	padding-left: 10px;
 }
 
+/* ADDED STYLES */
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 15px;
+    color: rgb(28, 1, 102);
+	background-color:cornflowerblue;
+}
+
+a:hover {
+	background-color: rgb(148, 145, 210);
+}
+
+.current-page {
+	background-color:aliceblue;
+}
+
+.list-style {
+	flex-grow: 1;
+}
+
+.flex {
+    padding-left: 0px;
+    color: antiquewhite;
+    list-style-type:none;
+    justify-content:space-between;
+    display: flex;
+}
+
 /* MAIN */
 
 .main-content {

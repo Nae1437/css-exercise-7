@@ -32,10 +32,36 @@ code {
     border: 1px solid gray;
 }
 
+/* ADDED STYLES */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    padding: 17px;
+    color: aliceblue;
+    background-color: dimgray;
+}
+
+.link-style { 
+    color: black;
+}
+
+.flex {
+    padding-right: 500px;
+    color: antiquewhite;
+    list-style-type:none;
+    justify-content:space-between;
+    display: flex;
+    flex-grow: 5;
+}
+
 /* MAIN */
 
 .main-content {
-    border: 3px double gray;
-    background-color: #dedede;
     padding: 10px;
+    background-color: #dedede;
+    border: 3px double gray; 
 }
